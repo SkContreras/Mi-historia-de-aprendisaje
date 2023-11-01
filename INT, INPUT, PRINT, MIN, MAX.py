@@ -1,0 +1,11 @@
+Usuario = input("nombre completo")
+print("tu nombre es: " + Usuario)
+print("por favor " + Usuario + " introduce tres numeros")
+a = int(input("Numero a"))
+b = int(input("Numero b"))
+c = int(input("Numero c"))
+d = max(a, b, c)
+f = min(a, b, c)
+print("El numero maximo entre ellos es " + str(d))
+print("y el numero mas pequeño es " + str(f))
+
